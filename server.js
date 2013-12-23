@@ -1,7 +1,7 @@
 var http = require('http');
 var server = http.createServer();
 server.on('request',function(req,res){
-	res.writeHeader('200','{contentType:}')
+	res.writeHead(200,{'content-type':'text/plain'});
 	res.write('hello world');
 	res.end();
 });
