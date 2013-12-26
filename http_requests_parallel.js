@@ -1,9 +1,9 @@
 var http = require('http');
 
 var urls = [
-//	'http://search.twitter.com/search.json?q=Node',
-//	'http://search.twitter.com/search.json?q=javascript'
-'http://google.com'
+	'http://search.twitter.com/search.json?q=Node',
+	//'http://search.twitter.com/search.json?q=javascript'
+
 	];
 
 var allResults = [];
@@ -38,7 +38,15 @@ urls.forEach(function(url){
 
 	console.log(url);
 	http.get(url,function(res){
-		console.log(res);		
+		//console.log(res);		
+		var fs = require('fs');
+		fs.writeFile("/tmp/test", "Hey there!", function(err) {
+			if(err) {
+				console.log(err);
+			} else {
+				console.log("The file was saved!");
+			}
+		}); 
 	});
 });
 
