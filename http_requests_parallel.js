@@ -36,17 +36,25 @@ function collectResponse(res){
 
 urls.forEach(function(url){
 
-	console.log(url);
-	http.get(url,function(res){
-		//console.log(res);		
+var options = {
+  hostname: 'www.google.com',
+  port: 80,
+  path: '/index.html',
+  method: 'GET'
+}; 
+
+	
+	http.get(options,function(res){
+		console.log(JSON.stringify(res.headers));
 		var fs = require('fs');
-		fs.writeFile("/tmp/test", "Hey there!", function(err) {
+		fs.writeFile("/tmp/test", JSON.stringify(res.headers), function(err) {
 			if(err) {
 				console.log(err);
 			} else {
 				console.log("The file was saved!");
 			}
 		}); 
+
 	});
 });
 
