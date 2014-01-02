@@ -1,0 +1,18 @@
+{
+  "author": "Sidharth",
+  "name": "html",
+  "description": "demo npm package",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sidharthrehlan/nodejs.git"
+  },
+  "dependencies": {
+	"node-markdown":"0.1.1"
+},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
