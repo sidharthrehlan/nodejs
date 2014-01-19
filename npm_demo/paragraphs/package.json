@@ -1,0 +1,18 @@
+{
+  "author": "sidharth",
+  "name": "paragraphs",
+  "description": "showing how to use jquery and optimist npm package in nodejs",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sidharthrehlan/nodejs.git"
+  },
+  "dependencies": {
+			"optimist":"0.6.0"
+      },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
