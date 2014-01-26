@@ -1,0 +1,16 @@
+{
+  "name": "demo-cssmin",
+  "version": "0.0.0",
+  "description": "Demo of css min file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-cssmin": "~0.7.0"
+  }
+}

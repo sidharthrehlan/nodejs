@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#a1a1a1;
+	border:1px solid #e0e0e0;
+}
+table.inputtext {
+	margin:5px 0px;
+	padding:0px;
+	border:1px solid #d0d0d0;
+	border-bottom:none;
+	border-right:none;
+}
+table.inputtext td {
+	margin:0px;
+	padding:0px 0px 0px 0px !important;
+	border-bottom:none !important;
+	background-color:#FFF;
+	border-left:0px !important;
+}
+.inputOuter {
+	margin:0px;
+	padding:0px;
+	border-right:1px solid #d0d0d0;
+	border-bottom:1px solid #d0d0d0;
+}
+.inputOuter input {
+	margin:0px;
+	padding:0px 0px;
+	border:0px solid #000 !important;
+	width:38px;
+	background-color:#FFF;
+	height:22px;
+	text-align:right;
+}
+.btnOuter {
+	margin:0px;
+	padding:15px;
+}
+a.button {
+	background: url("../media/btnLeft.gif") no-repeat scroll left top transparent;
+	cursor: pointer;
+	display: inline-block;
+	padding:0px 0px 0px 8px;
+	text-decoration: none;
+	height:38px;
+}
+a.button span {
+	background: url("../media/btnRight.gif") no-repeat scroll right top transparent;
+	color: #b5b5b5;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	padding:8px 18px 0px 10px;
+	vertical-align:middle;
+	height:30px;
+	text-transform:uppercase;
+}
+a.smallbutton {
+	background: url("../media/smallbtnLeft.gif") no-repeat scroll left top transparent;
+	cursor: pointer;
+	display: inline-block;
+	padding:0px 0px 0px 5px;
+	text-decoration: none;
+	height:28px;
+}
+a.smallbutton span {
+	background: url("../media/smallbtnRight.gif") no-repeat scroll right top transparent;
+	color: #b5b5b5;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	padding:6px 15px 0px 8px;
+	vertical-align:middle;
+	height:22px;
+	text-transform:uppercase;
+}
+.containerBox input {
+	margin:0px;
+	padding:0px 5px;
+	width:60px;
+	background-color:#FFF;
+	height:22px;
+	line-height:22px;
+	border:1px solid #d0d0d0;
+	font-size:11px;
+	color:#838383;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.containerBox input.checkbox {
+	margin:0px;
+	padding:0px 0px;
+	width:auto;
+	height:auto;
+	background:none;
+	border:0px;
+}
+.containerBox input.radio {
+	margin:0px;
+	padding:0px 0px;
+	width:auto;
+	height:auto;
+	background:none;
+	border:0px;
+}
+
+
+
+.form {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#49535c;
+}
+.submit {
+	margin:10px 0px;
+	padding:10px 0px 0px 0px;
+	border-top:1px solid #dddddd;
+}
+label {
+	color:#49535c;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	line-height:17px;
+}
+label.error {
+	background:url("../media/error.gif") left top no-repeat;
+	padding:0 0 0 20px;
+	line-height:17px;
+}
+label.ok {
+	background:url("../media/ok.gif") left top no-repeat;
+	padding:0 0 0 20px;
+	line-height:20px;
+}
+input, textaera {
+	margin:5px 5px 5px 0px;
+	padding:0px 3px;
+	width:163px;
+	height:22px;
+	border:1px solid #d0d0d0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#838383;
+}
+.checkBox, .radioBtn {
+	width:25px !important;
+	margin:0px 0px 0px 0px !important;
+	padding:0px !important;
+	background:none;
+	height:auto;
+	border:none;
+}
+.checkBox:focus, .radioBtn:focus {
+	border:none;
+}
+.warning {
+	margin:10px 0 15px 0;
+	background:#d08bd0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFF;
+	font-weight:bold;
+	border:solid 1px #ebebeb;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:12px 35px;
+	display:none;
+}
+.warning.pos {
+	background:url("../media/warning.pos.icon.gif") left top no-repeat #d08bd0;
+	display:block;
+}
+.warning.neg {
+	background:url("../media/neg.icon.gif") left 2px no-repeat #d08bd0;
+	display:block;
+	border:solid 1px #eaba7f;
+}
+.warning.info {
+	background:url("../media/info.icon.gif") left 2px no-repeat #d08bd0;
+	display:block;
+	border:solid 1px #7ba3bb;
+	font-family:"segoe UI", Arial, Sans-serif;
+	font-size:13px;
+	color:#FFF;
+}
+
+a.buttonType2{
+	display:block;
+	padding:0px 0px 0px 7px;
+	background:url("../media/btnLeft.gif") left top no-repeat;
+	float:left;
+	height:38px;
+}
+a.buttonType2 input{
+	display:block;
+	padding:0px 15px 6px 5px;
+	background:url("../media/btnRight.gif") right top no-repeat;
+	height:38px;
+	line-height:normal;
+	text-transform:uppercase;
+	font-size: 15px;
+	font-weight:bold;
+	color:#B5B5B5;
+	float:left;
+	cursor:pointer;
+	border:none;
+	text-align:left;
+    margin: 0px;
+    width: auto;
+}
+a.smallbutton input {
+    background: url("../media/smallbtnRight.gif") no-repeat scroll right top transparent;
+    color: #B5B5B5;
+    display: inline-block;
+    border: medium none;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: auto;
+    padding: 0 15px 6px 8px;
+}
+a.button input {
+    background: url("../media/btnRight.gif") no-repeat scroll right top transparent;
+    color: #B5B5B5;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    border: none;
+    margin: 0px;
+}
+.checkbox{
+    border: 1px solid #D0D0D0;
+    color: #838383;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 0px;
+    line-height: 20px;
+    margin: 5px 5px 5px 0;
+    padding: 0 3px;
+    width: 0px;
+}
